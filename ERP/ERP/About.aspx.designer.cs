@@ -11,7 +11,7 @@ namespace ERP
 {
 
 
-    public partial class About
+    public partial class PerformaInvoices
     {
     }
 }

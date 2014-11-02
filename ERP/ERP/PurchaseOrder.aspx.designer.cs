@@ -10,7 +10,7 @@
 namespace ERP {
     
     
-    public partial class Quote {
+    public partial class PurchaseOrder {
         
         /// <summary>
         /// Label1 control.
@@ -130,13 +130,31 @@ namespace ERP {
         protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// CustomerRef control.
+        /// SupplierRef control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CustomerRef;
+        protected global::System.Web.UI.WebControls.TextBox SupplierRef;
+        
+        /// <summary>
+        /// Label16 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label16;
+        
+        /// <summary>
+        /// PurchasingAgent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList PurchasingAgent;
         
         /// <summary>
         /// Label6 control.
@@ -148,13 +166,13 @@ namespace ERP {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// Consignee control.
+        /// Vendor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Consignee;
+        protected global::System.Web.UI.WebControls.DropDownList Vendor;
         
         /// <summary>
         /// Label7 control.
@@ -166,13 +184,13 @@ namespace ERP {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// Buyer control.
+        /// ShipTo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Buyer;
+        protected global::System.Web.UI.WebControls.TextBox ShipTo;
         
         /// <summary>
         /// Label10 control.
@@ -184,13 +202,13 @@ namespace ERP {
         protected global::System.Web.UI.WebControls.Label Label10;
         
         /// <summary>
-        /// PortLoading control.
+        /// ShipmentMode control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PortLoading;
+        protected global::System.Web.UI.WebControls.TextBox ShipmentMode;
         
         /// <summary>
         /// Label11 control.
@@ -202,13 +220,13 @@ namespace ERP {
         protected global::System.Web.UI.WebControls.Label Label11;
         
         /// <summary>
-        /// PortDischarge control.
+        /// LatestShipDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PortDischarge;
+        protected global::System.Web.UI.WebControls.TextBox LatestShipDate;
         
         /// <summary>
         /// Label12 control.
@@ -220,13 +238,13 @@ namespace ERP {
         protected global::System.Web.UI.WebControls.Label Label12;
         
         /// <summary>
-        /// TextBox1 control.
+        /// PaymentTerm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox PaymentTerm;
         
         /// <summary>
         /// Label13 control.
@@ -281,24 +299,6 @@ namespace ERP {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
-        
-        /// <summary>
-        /// Label18 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label18;
-        
-        /// <summary>
-        /// TextBox3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
         
         /// <summary>
         /// Label15 control.

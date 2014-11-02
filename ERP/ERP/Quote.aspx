@@ -15,8 +15,8 @@
                     <tr>
                         <td style="width: 50%">
                             <div class="form-group">
-                                <asp:Label ID="Label1" runat="server" Text="Logo" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label1" runat="server" Text="Logo" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
                                     <asp:DropDownList ID="Logo" runat="server" CssClass="form-control"></asp:DropDownList>
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="Logo"
                                         CssClass="text-danger" Display="Dynamic" ErrorMessage="The Logo field is required." />
@@ -24,8 +24,8 @@
                             </div>
 
                             <div class="form-group">
-                                <asp:Label ID="Label2" runat="server" Text="Document Type" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label2" runat="server" Text="Document Type" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
 
                                     <asp:TextBox runat="server" ID="DocType" CssClass="form-control" />
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="DocType"
@@ -35,8 +35,8 @@
                             </div>
 
                             <div class="form-group">
-                                <asp:Label ID="Label3" runat="server" Text="Document Number" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label3" runat="server" Text="Document Number" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
                                     <asp:TextBox runat="server" ID="DocNumber" CssClass="form-control" TextMode="Number" ReadOnly="true" />
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="DocNumber"
                                         CssClass="text-danger" Display="Dynamic" ErrorMessage="The Document Number field is required." />
@@ -45,8 +45,8 @@
                             </div>
 
                             <div class="form-group">
-                                <asp:Label ID="Label4" runat="server" Text="Date" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label4" runat="server" Text="Date" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
                                     <asp:TextBox runat="server" ID="DocDate" CssClass="form-control" TextMode="Date" />
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="DocDate"
                                         CssClass="text-danger" Display="Dynamic" ErrorMessage="The Document Date field is required." />
@@ -54,8 +54,8 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <asp:Label ID="Label8" runat="server" Text="Payment Terms" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label8" runat="server" Text="Payment Terms" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
 
                                     <asp:TextBox runat="server" ID="PaymentTerms" CssClass="form-control" />
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="PaymentTerms"
@@ -64,8 +64,8 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <asp:Label ID="Label9" runat="server" Text="Shipment Lead Time" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label9" runat="server" Text="Shipment Lead Time" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
 
                                     <asp:TextBox runat="server" ID="ShipmentLeadTime" CssClass="form-control" />
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="ShipmentLeadTime"
@@ -76,8 +76,8 @@
 
 
                             <div class="form-group">
-                                <asp:Label ID="Label5" runat="server" Text="Customer Ref #" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label5" runat="server" Text="Customer Ref #" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
                                     <asp:TextBox runat="server" ID="CustomerRef" CssClass="form-control" TextMode="Number" />
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="CustomerRef"
                                         CssClass="text-danger" Display="Dynamic" ErrorMessage="The Customer Ref # field is required." />
@@ -87,8 +87,8 @@
 
 
                             <div class="form-group">
-                                <asp:Label ID="Label6" runat="server" Text="Consignee" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label6" runat="server" Text="Consignee" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
                                     <asp:DropDownList ID="Consignee" runat="server" CssClass="form-control"></asp:DropDownList>
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="Consignee"
                                         CssClass="text-danger" Display="Dynamic" ErrorMessage="The Consignee field is required." />
@@ -97,8 +97,8 @@
                             </div>
 
                             <div class="form-group">
-                                <asp:Label ID="Label7" runat="server" Text="Buyer" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label7" runat="server" Text="Buyer" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
                                     <asp:DropDownList ID="Buyer" runat="server" CssClass="form-control"></asp:DropDownList>
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="Buyer"
                                         CssClass="text-danger" Display="Dynamic" ErrorMessage="The Buyer field is required." />
@@ -109,8 +109,8 @@
 
 
                             <div class="form-group">
-                                <asp:Label ID="Label10" runat="server" Text="Port of Loading" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label10" runat="server" Text="Port of Loading" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
 
                                     <asp:TextBox runat="server" ID="PortLoading" CssClass="form-control" />
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="PortLoading"
@@ -122,8 +122,8 @@
 
 
                             <div class="form-group">
-                                <asp:Label ID="Label11" runat="server" Text="Port of Discharge" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label11" runat="server" Text="Port of Discharge" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
 
                                     <asp:TextBox runat="server" ID="PortDischarge" CssClass="form-control" />
                                     <asp:RequiredFieldValidator runat="server" ControlToValidate="PortDischarge"
@@ -134,24 +134,24 @@
 
 
                             <div class="form-group">
-                                <asp:Label ID="Label12" runat="server" Text="Port of Discharge" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label12" runat="server" Text="Port of Discharge" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
 
                                     <asp:TextBox runat="server" ID="TextBox1" CssClass="form-control" />
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <asp:Label ID="Label13" runat="server" Text="Validity" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label13" runat="server" Text="Validity" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
 
                                     <asp:TextBox runat="server" ID="Validity" CssClass="form-control" />
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <asp:Label ID="Label14" runat="server" Text="Insurance" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label14" runat="server" Text="Insurance" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
 
                                     <asp:TextBox runat="server" ID="Insurance" CssClass="form-control" />
 
@@ -162,24 +162,24 @@
 
 
                             <div class="form-group">
-                                <asp:Label ID="Label17" runat="server" Text="Special Instruction" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label17" runat="server" Text="Special Instruction" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
 
                                     <asp:TextBox runat="server" ID="TextBox2" CssClass="form-control" />
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <asp:Label ID="Label18" runat="server" Text="Advising Bank" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label18" runat="server" Text="Advising Bank" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
 
                                     <asp:TextBox runat="server" ID="TextBox3" CssClass="form-control" />
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <asp:Label ID="Label15" runat="server" Text="File Upload" CssClass="col-md-2 control-label"></asp:Label>
-                                <div class="col-md-10">
+                                <asp:Label ID="Label15" runat="server" Text="File Upload" CssClass="col-md-3 control-label"></asp:Label>
+                                <div class="col-md-9">
                                     <asp:FileUpload ID="FileUpload1" runat="server" AllowMultiple="true" />
                                 </div>
                             </div>
@@ -210,44 +210,49 @@
                 <div class="tab-content">
                     <div class="tab-pane active" id="article0" style="padding-top: 20px;">
                         <input type="number" value="0" id="contactInfoBarCounter0" name="contactInfoBarCounter0" style="visibility: hidden;" />
+                        <table style="width: 100%">
+                            <tr>
+                                <td>
 
-                        <div class="form-group">
-                            <label for="inputArticleNo0" class="col-sm-2 control-label">Article #</label>
-                            <div class="col-sm-10">
+                                    <div class="form-group">
+                                        <label for="inputArticleNo0" class="col-sm-2 control-label">Article #</label>
+                                        <div class="col-sm-10">
 
-                                <input type="text" class="form-control" id="inputArticleNo0" name="inputArticleNo0" placeholder="Article #" required>
-                            </div>
-                        </div>
+                                            <input type="text" class="form-control" id="inputArticleNo0" name="inputArticleNo0" placeholder="Article #" required>
+                                        </div>
+                                    </div>
 
-                        <div class="form-group">
-                            <label for="inputDescription0" class="col-sm-2 control-label">Description</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="inputDescription0" name="inputDescription0" placeholder="Description" required>
-                            </div>
-                        </div>
+                                    <div class="form-group">
+                                        <label for="inputDescription0" class="col-sm-2 control-label">Description</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="inputDescription0" name="inputDescription0" placeholder="Description" required>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <label for="inputQuantity0" class="col-sm-2 control-label">Quantity</label>
+                                        <div class="col-sm-10">
+                                            <input type="number" class="form-control" id="inputQuantity0" name="inputQuantity0" onkeyup="calc(0);" value="0.0" required>
+                                        </div>
+                                    </div>
 
-                        <div class="form-group">
-                            <label for="inputQuantity0" class="col-sm-2 control-label">Quantity</label>
-                            <div class="col-sm-10">
-                                <input type="number" class="form-control" id="inputQuantity0" name="inputQuantity0" onkeyup="calc(0);" value="0.0" required>
-                            </div>
-                        </div>
+                                    <div class="form-group">
+                                        <label for="inputCurrency0" class="col-sm-2 control-label">Currency</label>
+                                        <div class="col-sm-10">
+                                            <input type="number" class="form-control" id="inputCurrency0" name="inputCurrency0" onkeyup="calc(0);" value="0.0" required>
+                                        </div>
+                                    </div>
 
-                        <div class="form-group">
-                            <label for="inputCurrency0" class="col-sm-2 control-label">Currency</label>
-                            <div class="col-sm-10">
-                                <input type="number" class="form-control" id="inputCurrency0" name="inputCurrency0" onkeyup="calc(0);" value="0.0" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="inputAmount0" class="col-sm-2 control-label">Amount</label>
-                            <div class="col-sm-10">
-                                <input type="number" class="form-control" id="inputAmount0" name="inputAmount0" value="0.0" readonly>
-                            </div>
-                        </div>
-
-
+                                    <div class="form-group">
+                                        <label for="inputAmount0" class="col-sm-2 control-label">Amount</label>
+                                        <div class="col-sm-10">
+                                            <input type="number" class="form-control" id="inputAmount0" name="inputAmount0" value="0.0" readonly>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
 
                     </div>
                 </div>

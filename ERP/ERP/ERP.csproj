@@ -115,7 +115,8 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
-    <Content Include="PerformaInvoice.aspx" />
+    <Content Include="Quote.aspx" />
+    <Content Include="Scripts\ArticleTabs.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
@@ -191,14 +192,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="PerformaInvoice.aspx.cs">
-      <DependentUpon>PerformaInvoice.aspx</DependentUpon>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quote.aspx.cs">
+      <DependentUpon>Quote.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PerformaInvoice.aspx.designer.cs">
-      <DependentUpon>PerformaInvoice.aspx</DependentUpon>
+    <Compile Include="Quote.aspx.designer.cs">
+      <DependentUpon>Quote.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

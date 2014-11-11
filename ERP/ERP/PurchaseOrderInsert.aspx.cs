@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ERP
 {
-    public partial class Quote : Page
+    public partial class PurchaseOrderInsert : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -116,8 +116,9 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
-    <Content Include="PurchaseOrder.aspx" />
-    <Content Include="Quote.aspx" />
+    <Content Include="PurchaseOrderInsert.aspx" />
+    <Content Include="QuoteInsert.aspx" />
+    <Content Include="SalesContractInsert.aspx" />
     <Content Include="Scripts\ArticleTabs.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -196,19 +197,26 @@
     </Compile>
     <Compile Include="Models\PerformaInvoice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PurchaseOrder.aspx.cs">
-      <DependentUpon>PurchaseOrder.aspx</DependentUpon>
+    <Compile Include="PurchaseOrderInsert.aspx.cs">
+      <DependentUpon>PurchaseOrderInsert.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PurchaseOrder.aspx.designer.cs">
-      <DependentUpon>PurchaseOrder.aspx</DependentUpon>
+    <Compile Include="PurchaseOrderInsert.aspx.designer.cs">
+      <DependentUpon>PurchaseOrderInsert.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Quote.aspx.cs">
-      <DependentUpon>Quote.aspx</DependentUpon>
+    <Compile Include="QuoteInsert.aspx.cs">
+      <DependentUpon>QuoteInsert.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Quote.aspx.designer.cs">
-      <DependentUpon>Quote.aspx</DependentUpon>
+    <Compile Include="QuoteInsert.aspx.designer.cs">
+      <DependentUpon>QuoteInsert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SalesContractInsert.aspx.cs">
+      <DependentUpon>SalesContractInsert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalesContractInsert.aspx.designer.cs">
+      <DependentUpon>SalesContractInsert.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

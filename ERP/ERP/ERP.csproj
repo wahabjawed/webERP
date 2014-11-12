@@ -116,6 +116,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="PackingListInsert.aspx" />
     <Content Include="PurchaseOrderInsert.aspx" />
     <Content Include="QuoteInsert.aspx" />
     <Content Include="SalesContractInsert.aspx" />
@@ -196,6 +197,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\PerformaInvoice.cs" />
+    <Compile Include="PackingListInsert.aspx.cs">
+      <DependentUpon>PackingListInsert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PackingListInsert.aspx.designer.cs">
+      <DependentUpon>PackingListInsert.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PurchaseOrderInsert.aspx.cs">
       <DependentUpon>PurchaseOrderInsert.aspx</DependentUpon>
